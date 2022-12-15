@@ -1,0 +1,276 @@
+[{
+  "_id": {
+    "$oid": "6399a710a084b396196dd84e"
+  },
+  "name": "Manufacturing",
+  "sub": [
+    {
+      "name": "Construction Materials"
+    },
+    {
+      "name": "Electronics and Optics"
+    },
+    {
+      "name": "Food and Beverage",
+      "sub": [
+        {
+          "name": "Bakery and confectionary products"
+        },
+        {
+          "name": "Beverages"
+        },
+        {
+          "name": "Fish & Fish products"
+        },
+        {
+          "name": "Meat and Meat Products"
+        },
+        {
+          "name": "Milk and Dairy Products"
+        },
+        {
+          "name": "Other"
+        },
+        {
+          "name": "Sweet & Snack Food"
+        }
+      ]
+    },
+    {
+      "name": "Furniture",
+      "sub": [
+        {
+          "name": "Bathroom/Sauna"
+        },
+        {
+          "name": "Bedroom"
+        },
+        {
+          "name": "Children's Room"
+        },
+        {
+          "name": "Kitchen"
+        },
+        {
+          "name": "Living Room"
+        },
+        {
+          "name": "Office"
+        },
+        {
+          "name": "Other(Furniture)"
+        },
+        {
+          "name": "Outdoor"
+        },
+        {
+          "name": "Project Furniture"
+        }
+      ]
+    },
+    {
+      "name": "Machinery",
+      "sub": [
+        {
+          "name": "Machinary components"
+        },
+        {
+          "name": "Machinery equipments/tools"
+        },
+        {
+          "name": "Manufacture of machinery"
+        },
+        {
+          "name": "Maritime",
+          "sub": [
+            {
+              "name": "Aluminium and steel workboats"
+            },
+            {
+              "name": "Boat/Yacht building"
+            },
+            {
+              "name": "Ship repair and conversion"
+            }
+          ]
+        },
+        {
+          "name": "Metal Structures"
+        },
+        {
+          "name": "Other"
+        },
+        {
+          "name": "Repair and maintenance service"
+        }
+      ]
+    },
+    {
+      "name": "Metal Working",
+      "sub": [
+        {
+          "name": "Construction of metal structures"
+        },
+        {
+          "name": "Houses and buildings"
+        },
+        {
+          "name": "Metal Products"
+        },
+        {
+          "name": "Metal works",
+          "sub": [
+            {
+              "name": "CNC-Machining"
+            },
+            {
+              "name": "Forgins, Fateners"
+            },
+            {
+              "name": "Gas, Plasma, Laser Cutting"
+            },
+            {
+              "name": "MIG, TIG, ALuminium welding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Plastic and Rubber",
+      "sub": [
+        {
+          "name": "Packaging"
+        },
+        {
+          "name": "Plastic Goods"
+        },
+        {
+          "name": "Plastic processing technology",
+          "sub": [
+            {
+              "name": "Blowing"
+            },
+            {
+              "name": "Moulding"
+            },
+            {
+              "name": "Plastics welding and processing"
+            }
+          ]
+        },
+        {
+          "name": "Plastic Profiles"
+        }
+      ]
+    },
+    {
+      "name": "Printing",
+      "sub": [
+        {
+          "name": "Advertising"
+        },
+        {
+          "name": "Book/Periodicals printing"
+        },
+        {
+          "name": "labeling and packaging printing"
+        }
+      ]
+    },
+    {
+      "name": "Textile and Clothing",
+      "sub": [
+        {
+          "name": "Clothing"
+        },
+        {
+          "name": "Textile"
+        }
+      ]
+    },
+    {
+      "name": "Wood",
+      "sub": [
+        {
+          "name": "Other(Wood)"
+        },
+        {
+          "name": "Wooden building materials"
+        },
+        {
+          "name": "wooden houses"
+        }
+      ]
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6399a710a084b396196dd84f"
+  },
+  "name": "Other",
+  "sub": [
+    {
+      "name": "Creative industries"
+    },
+    {
+      "name": "Energy Technology"
+    },
+    {
+      "name": "Environment"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6399a710a084b396196dd850"
+  },
+  "name": "service",
+  "sub": [
+    {
+      "name": "Business Services"
+    },
+    {
+      "name": "Engineering"
+    },
+    {
+      "name": "Information Technology and Telecommunications",
+      "sub": [
+        {
+          "name": "Data processing, Web protals, E-marketing"
+        },
+        {
+          "name": "Programming, Consultancy"
+        },
+        {
+          "name": "Software, Hardware"
+        },
+        {
+          "name": "Telecommunications"
+        }
+      ]
+    },
+    {
+      "name": "Tourism"
+    },
+    {
+      "name": "Translation Services"
+    },
+    {
+      "name": "Transport and Logistics",
+      "sub": [
+        {
+          "name": "Air"
+        },
+        {
+          "name": "Rail"
+        },
+        {
+          "name": "Road"
+        },
+        {
+          "name": "Water"
+        }
+      ]
+    }
+  ]
+}]

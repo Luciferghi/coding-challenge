@@ -63,7 +63,7 @@ export default function App() {
     setSelector(sessionStorage.getItem('selector'))
     setTerms(sessionStorage.getItem('terms'))
 
-    const url = "http://localhost:5000/api/user/store";
+    const url = "https://coding-challenge.onrender.com/api/user/store";
     const options = {
       method: "POST",
       headers: {
@@ -106,7 +106,7 @@ export default function App() {
   }
 
   React.useEffect(() => {
-    fetch('http://localhost:5000/api/user/selector')
+    fetch('https://coding-challenge.onrender.com/api/user/selector')
       .then(response => response.json())
       .then(data => {
         setData(data.data)
@@ -132,11 +132,12 @@ export default function App() {
           <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
             <LockOutlinedIcon />
           </Avatar>
+          {error ? <p sx={{ color: '#FF0000' }}>Filling all the field is mandatory</p> : ''}
+          {success ? <p sx={{ color: '#FF0000' }}>Data Updated Successfully</p> : ''}
           <Typography component="h1" variant="h5">
             Register
           </Typography>
-          {error ? <p sx={{ color: '#FF0000' }}>Filling all the field is mandatory</p> : ''}
-          {success ? <p sx={{ color: '#FF0000' }}>Data Updated Successfully</p> : ''}
+
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               <Grid item xs={12}>

@@ -13,7 +13,7 @@ function Table() {
     const navigateTo = () => navigate(`/`)
 
     React.useEffect(() => {
-        fetch('http://localhost:5000/api/user/')
+        fetch('https://coding-challenge.onrender.com/api/user/')
             .then(response => response.json())
             .then(data => {
                 setData(data.data)
